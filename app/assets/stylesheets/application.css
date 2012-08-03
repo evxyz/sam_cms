@@ -10,4 +10,16 @@
  *
  *= require_self
  *= require_tree .
- */
+
+div.navbar.navbar-fixed-top{
+    color: red;
+    font-size: 14;
+} */
+section#body{
+   float: right;
+}
+
+ul.nav.nav-list{
+    font-size: 18pt;
+}
+
