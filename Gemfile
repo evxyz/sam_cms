@@ -27,6 +27,14 @@ gem 'therubyracer'
 
 gem 'jquery-rails'
 
+group :test, :development do
+
+
+gem 'pry-rails'
+gem 'pry-doc'
+gem 'pry-nav'
+
+end
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
