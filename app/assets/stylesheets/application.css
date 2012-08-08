@@ -15,6 +15,12 @@ div.navbar.navbar-fixed-top{
     color: red;
     font-size: 14;
 } */
+h1#body_content_title{
+	color: white;
+}
+div.well.sidebar-nav{
+	float: right;
+}
 section#body{
    float: right;
 }
@@ -23,3 +29,4 @@ ul.nav.nav-list{
     font-size: 18pt;
 }
 
+/* use chrome browser & select element  */ 
