@@ -11,7 +11,7 @@ Refinery::Pages.configure do |config|
   # config.default_parts = ["Body", "Side Body"]
 
   # Configure whether to allow adding new page parts
-   config.new_page_parts = true
+  # config.new_page_parts = true
 
   # Configure whether to enable marketable_urls
   # config.marketable_urls = true
