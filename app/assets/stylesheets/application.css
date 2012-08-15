@@ -27,7 +27,10 @@ img {
 	width: 80%;
 } 
 	
-
+.well{
+	
+	float: right;
+}
 
 
 ul.nav.nav-list{
