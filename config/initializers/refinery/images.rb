@@ -13,7 +13,7 @@ Refinery::Images.configure do |config|
   # config.pages_per_admin_index = 20
 
   # Configure image sizes
-   config.user_image_sizes = {:small=>"220x220>", :medium=>"500x500>", :large=>"600x400>"}
+   config.user_image_sizes = {:small=>"220x220>", :medium=>"500x500>", :large=>"999x999>"}
 
   # Configure white-listed mime types for validation
   # config.whitelisted_mime_types = ["image/jpeg", "image/png", "image/gif", "image/tiff"]
