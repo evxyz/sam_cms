@@ -49,7 +49,7 @@ end
 
 # To use debugger
 # gem 'debugger'
-
+gem 'refinerycms-portfolio', :git => 'git://github.com/resolve/refinerycms-portfolio.git', :branch => '2-0-stable'
 # Refinery CMS
 gem 'refinerycms', '~> 2.0.0'
 
