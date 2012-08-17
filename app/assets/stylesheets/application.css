@@ -15,23 +15,24 @@ div.navbar.navbar-fixed-top{
     color: red;
     font-size: 14;
 } */
+img {
+	
+	border-top: 0%;
+	height: 95%;
+	width: 95%;
+	
 
+}
 
 h1#body_content_title{
 	color: black;
-}
-
-img {
-	border-top: 0%;
-	height: 80%;
-	width: 80%;
 } 
-	
+/*	
 .well{
 	
 	float: right;
 }
-
+*/
 
 ul.nav.nav-list{
     font-size: 18pt;
