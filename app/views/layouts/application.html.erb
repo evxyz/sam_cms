@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- content_for -->
     <title><%= content_for?(:title) ? yield(:title) : "SamCms" %></title>
     <%= csrf_meta_tags %>
 
@@ -49,7 +50,7 @@
             <li><%= link_to "Home", "/"  %></li>
             <li><%= link_to "About", "/about"  %></li>
             <li><%= link_to "Resume", "/resume"  %></li>
-            <li><%= link_to "Photo", "/gallery"  %></li>
+            <li><%= link_to "Portfolio", "/portfolio"  %></li>
             <li><%= link_to "Contact", "/contact"  %></li>
 
 
