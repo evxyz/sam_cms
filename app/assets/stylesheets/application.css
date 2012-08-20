@@ -12,8 +12,8 @@
  *= require_tree .
 */
 
-/* use chrome browser & select element  */ 
+/* use chrome browser & select element   */
 
 h1#body_content_title{
-	color: red;
+       color: red;
 }
