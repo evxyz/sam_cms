@@ -11,31 +11,8 @@
  *= require_self
  *= require_tree .
 
-div.navbar.navbar-fixed-top{
-    color: red;
-    font-size: 14;
-} */
-img {
-	
-	border-top: 0%;
-	height: 75%;
-	width: 75%;
-	
 
-}
 
-h1#body_content_title{
-	color: black;
-} 
-/*	
-.well{
-	
-	float: right;
-}
-*/
 
-ul.nav.nav-list{
-    font-size: 18pt;
-}
 
 /* use chrome browser & select element  */ 
