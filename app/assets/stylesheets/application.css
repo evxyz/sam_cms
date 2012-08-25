@@ -10,9 +10,30 @@
  *
  *= require_self
  *= require_tree .
+*/
+h1#body_content_title{
+	color:green;
+}
+
+h4>em{
+    color:red;
+}
 
 
 
+div#film>p{
+  color:purple; 
+}
+
+
+
+
+div#theater>div{
+    color:red;
+}
+div+p+p+p{
+    color:blue;
+}
 
 
 /* use chrome browser & select element  */ 
