@@ -11,6 +11,7 @@
  *= require_self
  *= require_tree .
 */
+
 h1#body_content_title{
 	color:green;
 }
