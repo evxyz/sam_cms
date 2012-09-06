@@ -83,6 +83,11 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <%= javascript_include_tag "application" %>
+   <% $(document).ready(function () {%> 
+	<% $('#animate').click(function () {%>
+	<% $('.box').fadeTo('slow', 'toggle'); });%>
+});
+
  <footer>
         <p>&copy; EVX001_2012</p>
 
