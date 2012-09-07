@@ -7,6 +7,7 @@ gem 'rails', '3.2.7'
 group :production do
   gem 'ps'
 end
+gem 'tap'
 group :development, :test do
   gem 'sqlite3'
 end
