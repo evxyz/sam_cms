@@ -5,7 +5,7 @@ gem 'rails', '3.2.7'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 group :production do
-  gem 'ps'
+  gem 'pg'
 end
 gem 'tap'
 group :development, :test do
