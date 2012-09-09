@@ -10,9 +10,8 @@ end
 gem 'tap'
 group :development, :test do
   gem 'sqlite3'
-gem 'thin'
 end
-
+gem 'thin'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
