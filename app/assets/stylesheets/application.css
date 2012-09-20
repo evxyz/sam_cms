@@ -12,13 +12,61 @@
  *= require_tree .
 */
 
-
 /*PUT YOUR GLOBAL CSS HERE:  */ 
-*#body_content_title{ margin-top: -3%; visibility: hidden;} 
-h3{
-	width:80%;
+h1#body_content_title{
+visibility: hidden;
 }
-a[title="samantha7@msn.com"]{
-	float:right;
-	margin-right:20%;
+header{
+
+	margin-top: -5%;
+	margin-left: 10px;
+}
+
+
+
+ .brand{
+	margin-top: -3px;
+	font-size: 30px;
+
+}
+
+.navbar .navbar-inner .container-fluid a {
+	text-shadow: none;
+	color: #FFFFFF;
+}
+/*
+img[alt*="A Big"]{
+
+	width: 65%;
+margin-left: -1%;
+}
+
+img[alt*="187"]{
+	width: 44%;
+
+}
+img[alt*="115"]{
+	width: 75%;
+	min-width: 50%;
+margin-left: 15%;
+}
+img[alt*="203"]{
+	width: 50%;
+margin-left: 15%;
+}
+img[alt*="89"]{
+	width: 31%;
+float: left;
+padding-right: 10px;
+}
+img[alt*="Resume"]{
+	margin-top: -50px;
+	float:left;
+	width: 88%;
+}
+*/
+article{
+	padding-top: 1%;
+padding-right: 15px;
+margin-right: 10%;
 }

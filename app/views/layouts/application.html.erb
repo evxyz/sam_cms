@@ -1,17 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  	
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
-     
- 
-
-   
     <!-- content_for // could this be a container?-->
-    <title><%= content_for?(:title) ? yield(:title) : "Samantha Cook - Actor" %></title>
+    <title><%= content_for?(:title) ?  yield(:title) : "SamCms" %></title>
     <%= csrf_meta_tags %>
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
@@ -40,6 +35,11 @@
     <!-- For all other devices -->
     <!-- Size should be 32 x 32 pixels -->
     <%= favicon_link_tag 'images/favicon.ico', :rel => 'shortcut icon' %>
+<!-- slide show -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+
+  
+    
   </head>
   <body>
   <div class="navbar navbar-fixed-top">
@@ -50,16 +50,16 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </a>
-        
+        <a class="brand" href="/">Samantha Cook - Actor </a>
         <div class="container-fluid nav-collapse">
-        <a class="brand" href="/"></a>
           <ul class="nav">
             <li><%= link_to "Home", "/"  %></li>
             <li><%= link_to "About", "/about"  %></li>
             <li><%= link_to "Resume", "/resume"  %></li>
-            <li><%= link_to "Pix", "/pix"  %></li> 
-            </nav>
-           
+            <li><%= link_to "Pix", "/pix"  %></li>
+            
+            
+
 
 
           </ul>
@@ -75,8 +75,21 @@
 
 
 
-
         <%=  yield  %>
+<style>
+img{
+ display: none; 
+}
+h3{
+ display: none;  
+}
+h2{
+ display: none;  
+}
+.container-fluid{
+  display: none;
+}
+</style>
 
       </div>
     </div><!--/row-->
@@ -89,11 +102,26 @@
     <!-- Javascripts
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    <%= javascript_include_tag "application" %>
+
+<script type="text/javascript">
+$(document).ready(function() { 
+
+
+    $('img') .fadeIn(2500)  ;
+    $('h3') .delay(300) .fadeIn(2000);
+    $('h2')  .slideDown(1500);
+    $('.container-fluid') .delay (750) .fadeIn(1000);
+    
+
+});
+ </script>
+
+
 
  <footer>
-        <p>&copy; evieSamLTD</p>
-
+        <p>&copy; EvieSamLTD 2012</p>
       </footer>
-
+</script>
   </body>
 </html>
