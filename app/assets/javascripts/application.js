@@ -14,3 +14,15 @@
 //= require jquery_ujs
 //= require twitter/bootstrap
 //= require_tree .
+$(document).ready(function() { 
+
+
+    $('img') .delay (750) .fadeIn(1000);
+    $('h3') .delay(300) .fadeIn(2000);
+    $('header')  .slideDown(1500);
+    $('h1')  .delay (750) .fadeIn(1000);
+    $('div.container-fluid') .delay (750) .fadeIn(1000);
+    
+    
+
+});

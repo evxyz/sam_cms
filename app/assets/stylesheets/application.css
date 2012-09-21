@@ -16,55 +16,45 @@
 h1#body_content_title{
 visibility: hidden;
 }
-header{
 
-	margin-top: -5%;
-	margin-left: 10px;
-}
-
-
-
- .brand{
-	margin-top: -3px;
-	font-size: 30px;
-
+.container-fluid {
+background: #000000;
 }
 
 .navbar .navbar-inner .container-fluid a {
 	text-shadow: none;
+	
 	color: #FFFFFF;
 }
-/*
-img[alt*="A Big"]{
+
+img[alt="Samantha Cook 10 A Big"]{
 
 	width: 65%;
 margin-left: -1%;
 }
 
-img[alt*="187"]{
+img[alt="Cook Samantha 187 A"]{
 	width: 44%;
 
 }
-img[alt*="115"]{
+img[alt="Cook Samantha 115"]{
 	width: 75%;
 	min-width: 50%;
 margin-left: 15%;
 }
-img[alt*="203"]{
-	width: 50%;
-margin-left: 15%;
-}
-img[alt*="89"]{
-	width: 31%;
+
+img[alt="Cook Samantha 089 Ret"]{
+	height:-2%;
+	width: 28%;
 float: left;
 padding-right: 10px;
 }
-img[alt*="Resume"]{
+img[alt="Samantha Cook Resume"]{
 	margin-top: -50px;
 	float:left;
 	width: 88%;
 }
-*/
+
 article{
 	padding-top: 1%;
 padding-right: 15px;
