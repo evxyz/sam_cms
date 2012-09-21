@@ -12,7 +12,8 @@
  *= require_tree .
 */
 
-/*PUT YOUR GLOBAL CSS HERE:  */ 
+/*PUT YOUR GLOBAL CSS HERE:  */
+/* ======= the hidden for Jquery ======== */ 
 img{
  display: none; 
 }
@@ -23,19 +24,10 @@ h3{
 h2{
  display: none;  
 }
-em h1{
+h1{
+display: none;
 
- display: none;
- font-size:40px;
-line-height:0px;
-text-align:left;
-
-
-}
-h2 [title]{
 	
-margin-left:50%;
-text-align: right;	
 }
 .container-fluid{
   display: none;
@@ -48,6 +40,8 @@ h1#body_content_title{
 visibility: hidden;
 }
 
+/* ==== the regular css =====*/
+
 .container-fluid {
 background: #000000;
 }
@@ -58,8 +52,10 @@ background: #000000;
 	color: #FFFFFF;
 }
 
+/* ##### images by selector ###### */
+
 img[alt="Samantha Cook 10 A Big"]{
-	margin-top: -5%;
+	margin-top: -1%;
 	width: 70%;
 margin-left: -1%;
 }
@@ -86,8 +82,22 @@ img[alt="Samantha Cook Resume"]{
 	width: 88%;
 }
 
+/* #### other html tags #### */
+
 article{
 	padding-top: 1%;
 padding-right: 15px;
 margin-right: 10%;
 }
+a h1{
+	color: #000000;
+	margin-top: -1%;
+
+}
+a[title="samanthac7@msn.com"]{
+float:right;
+	margin-top: -4%;
+	margin-right: 30%;
+}
+
+/* #####  end ##### */

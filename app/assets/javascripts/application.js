@@ -15,14 +15,10 @@
 //= require twitter/bootstrap
 //= require_tree .
 $(document).ready(function() { 
-$("em") .delay (750) .fadeIn(1000);
-$("h2") .slideDown(1500);
-    $('img') .delay (750) .fadeIn(1000);
-    $('h3') .delay(300) .fadeIn(2000);
-    $('.container-fluid') .delay (750) .fadeIn(1000);
-    $('h1')  .delay (750) .fadeIn(1000);
-    $('div.container-fluid') .delay (750) .fadeIn(1000);
-    
-    
-
+$('img') .delay (750) .fadeIn(1000);
+$("h1") .delay (750) .fadeIn(1000);
+$("h2") .slideDown(1000);
+$('h3') .delay(750) .fadeIn(1000);
+$('.container-fluid') .delay (750) .fadeIn(1000);
+$('div.container-fluid') .delay (750) .fadeIn(1000);
 });
