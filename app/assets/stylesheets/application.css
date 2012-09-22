@@ -89,7 +89,10 @@ article{
 padding-right: 15px;
 margin-right: 10%;
 }
+
+/*     heading main page */
 a h1{
+	margin-left: -8px;
 	color: #000000;
 	margin-top: -1%;
 
@@ -97,7 +100,7 @@ a h1{
 a[title="samanthac7@msn.com"]{
 float:right;
 	margin-top: -4%;
-	margin-right: 30%;
+	margin-right: 31%;
 }
 
 /* #####  end ##### */
