@@ -13,7 +13,7 @@
 */
 
 /*PUT YOUR GLOBAL CSS HERE:  */
-/* ======= "display none" for Jquery ======== */ 
+/* ======= the hidden for Jquery ======== */ 
 img{
  display: none; 
 }
@@ -27,20 +27,21 @@ h2{
 h1{
 display: none;
 
-	
+
 }
 .container-fluid{
   display: none;
 }
+/*------------------------------
 div.container-fluid{
-	display: none;
+	display: none; */
 }
-
-/* ==== banner =====*/
 
 h1#body_content_title{
 visibility: hidden;
 }
+
+/* ==== the regular css =====*/
 
 .container-fluid {
 background: #000000;
@@ -48,7 +49,7 @@ background: #000000;
 
 .navbar .navbar-inner .container-fluid a {
 	text-shadow: none;
-	
+
 	color: #FFFFFF;
 }
 
@@ -59,31 +60,30 @@ img[alt="Samantha Cook 10 A Big"]{
 	width: 70%;
 margin-left: -1%;
 }
-/* --------------------- pix ---------------- */
 
-img[alt="Portrait Scarf Smile 202"]{
-	width: 90%;
+img[alt="Cook Samantha 187 A"]{
+	width: 44%;
 
 }
-
 img[alt="Cook Samantha 115"]{
 	width: 75%;
 	min-width: 50%;
 margin-left: 15%;
 }
-/*-----------------about -----------------------*/
+
 img[alt="Cook Samantha 089 Ret"]{
 	height:-2%;
 	width: 28%;
 float: left;
 padding-right: 10px;
 }
-
-/*------------ res ---------------------*/
 img[alt="Samantha Cook Resume"]{
 	margin-top: -50px;
 	float:left;
 	width: 88%;
+}
+img[alt=alt="Purple Landscape Smile 115"]{
+width:75%;
 }
 
 /* #### other html tags #### */
@@ -94,7 +94,7 @@ padding-right: 15px;
 margin-right: 10%;
 }
 
-/* ------------------ heading main page ---------*/
+/*#### heading main page #### */
 a h1{
 	margin-left: -8px;
 	color: #000000;
@@ -106,5 +106,9 @@ float:right;
 	margin-top: -4%;
 	margin-right: 31%;
 }
-
+/*==== about page ====*/
+strong{
+float:right;
+margin-right:10%;
+}
 /* #####  end ##### */
